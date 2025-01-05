@@ -1,0 +1,19 @@
+
+
+.dashboard {
+    display: flex; /* Usamos flexbox para organizar el sidebar y el contenido */
+    height: 100vh; /* Asegura que el dashboard ocupe toda la altura de la ventana */
+    background-color: var(--bg-color); /* Fondo del dashboard */
+  }
+
+.dashboardContent {
+    flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+    padding: 20px; /* Espaciado interno del contenido */
+
+  }
+
+.welcome{
+  color: var(--bg-color-dark);
+}
+
+ 

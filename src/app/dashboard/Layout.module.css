@@ -1,0 +1,8 @@
+.dashboardLayout {
+    display: flex; /* Coloca el sidebar y el contenido en fila */
+  }
+  
+  .dashboarContent {
+    flex: 1; /* El contenido ocupa el espacio restante */
+    padding: 20px; /* Espaciado interno */
+  }

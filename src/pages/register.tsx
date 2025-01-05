@@ -1,5 +1,7 @@
+"use client"
 import { useState } from 'react';
 import axios from '../utils/axiosInstance';
+
 
 export default function Register() {
   const [email, setEmail] = useState('');
